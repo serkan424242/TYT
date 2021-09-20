@@ -1,0 +1,5 @@
+Projemi tek kişilik grup halinde Yürüteceğim.
+Projenin Kaynak kodu:Serkan Yıldız
+Programın tasarımı:Serkan Yıldız
+Arayüzü:Serkan Yıldız
+Akış Diyagramı:Serkan Yıldız

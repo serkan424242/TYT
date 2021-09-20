@@ -1,0 +1,1 @@
+Projemizin amacı problem çözme adımları kullanılarak eldeki sorunun verilen bilgiler doğrultusunda çözüme ulaşması

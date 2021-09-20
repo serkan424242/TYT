@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TYT Soru Çözümü</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body style="background: #f1f2f6;">
+    <div class="container">
+      <h2>Üslü Sayılarda Hesaplama</h2>
+      <form>
+          <div class="form-group">
+            <label>Taban:</label>
+            <input type="text" class="form-control" id="sayi1" placeholder="sayının tabanını giriniz">
+
+          </div>
+          <div class="form-group">
+            <label>Kuvvet:</label>
+            <input type="text" class="form-control" id="sayi2" placeholder="kuvvet değerini giriniz" >
+
+          </div>
+          <div class="form-group">
+            <label>İşlem Sonucu:</label>
+            <input type="text" class="form-control" id="sonuc" disabled>
+          </div>
+          <button id="hesapla" type="button" class="btn btn-primary">Hesapla</button>
+        </form>
+    </div>
+
+    <script>
+        var sayi1=document.querySelector("#sayi1");
+        var sayi2=document.querySelector("#sayi2");
+        var sonuc=document.querySelector("#sonuc");
+        var hesapla=document.querySelector("#hesapla");
+
+        hesapla.onclick=function(){
+            var taban  = Number(sayi1.value);
+            var kuvvet = Number(sayi2.value);
+            var islem = 1;
+
+            while (kuvvet != 0)
+            {
+                islem *= taban;
+                --kuvvet;
+            }
+
+            sonuc.value=islem;
+        }
+    </script>
+
+</body>
+</html>
