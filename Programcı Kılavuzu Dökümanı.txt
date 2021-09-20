@@ -1,0 +1,1 @@
+Tasarımı sade bir şekilde gerkeçleştirmeye çalıştım.Boostrapın kütüphanesini kullandım.Placeholder ile girilmesi gerekn değeri labelın içerisine yazdım.
